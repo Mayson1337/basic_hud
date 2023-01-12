@@ -1,0 +1,102 @@
+
+@font-face {
+  font-family: PricedownBL;
+  src: url(s.otf);
+}
+
+* {
+    font-family: 'Roboto';
+    overflow: hidden;
+}
+
+body,
+html {
+  height: 100%;
+  justify-content:space-between;
+}
+
+
+
+.box {
+  margin: auto;
+  float: right;
+  margin-top: 5%;
+}
+
+.box .newmoney #newcontent {
+  margin-top: -10px;
+  font-size: 35px;
+  font-family: PricedownBL;
+}
+
+.box .newmoney  {
+  margin: 0px 3px;
+}
+
+.box .money #content {
+  color: green;
+  margin-top: -7px;
+  font-size: 35px;
+  font-family: PricedownBL;
+}
+
+.box .money #nontent {
+  color: green;
+  margin-top: -7px;
+  font-size: 35px;
+  font-family: PricedownBL;
+}
+
+.box .money  {
+  margin: 0px 3px;
+}
+
+.box .money .iconmoney {
+  font-size: 30px;
+  color: green;
+}
+
+.box .voice {
+  margin: 0px 3px;
+  color: #999;
+  font-size: 35px;
+}
+
+.box .funk {
+  margin: 0px 3px;
+  color: red;
+  font-size: 35px;
+}
+
+.box #durst {
+  margin: 0px 3px;
+  color: #ff8000;
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.box #hunger {
+  margin: 0px 3px;
+  color: #ff8000;
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.box .aduty {
+  margin: 0px 3px;
+  color: red;
+  font-size: 35px;
+}
+
+.box .voicedot {
+  color: #999;
+  transform: rotate(180deg);
+  font-size: 7px;
+}
+
+.box #aduty {
+  float: right; 
+  font-size: 35px; 
+  color: red;
+  font-family: PricedownBL;
+}
